@@ -15,7 +15,7 @@ import java.util.*;
 @RestController
 @RequestMapping("/attendance")
 public class AttendanceController implements ICommonController<Attendance> {
-
+ 
 	@Autowired
 	private AttendanceRepository attendanceRepository;
 
